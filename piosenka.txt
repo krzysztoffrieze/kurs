@@ -1,6 +1,6 @@
 zwrotka1.txt
 refren1.txt
 zwrotka2.txt
-refren2.txt
+refren1.txt
 zwrotka3.txt
-refren3.txt
+refren1.txt
