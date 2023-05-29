@@ -4,3 +4,4 @@ zwrotka2.txt
 refren1.txt
 zwrotka3.txt
 refren1.txt
+konie
