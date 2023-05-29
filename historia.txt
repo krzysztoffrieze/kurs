@@ -1,0 +1,61 @@
+commit 902c5732e272de0ccda1fa535ef5f1282997f869
+Author: Frieze <frieze@onet.pl>
+Date:   Wed May 17 14:17:09 2023 +0200
+
+    usunalem powtarzajace refreny i zmienilem to w piosenka
+
+commit aac19625c7482ae3b10ef2e2a5e8f3483ac61e6d
+Author: Frieze <frieze@onet.pl>
+Date:   Wed May 17 14:02:31 2023 +0200
+
+    Revert "usunalem 2 linie zrefren1"
+    
+    This reverts commit 3ae0f84eae838ab368e7551956f82f19db4e574e.
+
+commit 3ae0f84eae838ab368e7551956f82f19db4e574e
+Author: Frieze <frieze@onet.pl>
+Date:   Wed May 17 13:59:18 2023 +0200
+
+    usunalem 2 linie zrefren1
+
+commit b9b1211499755b49f3d48db51c4c72466776da37
+Author: Frieze <frieze@onet.pl>
+Date:   Wed May 17 13:54:05 2023 +0200
+
+     modyfikacja piosenka i refren1
+
+commit 00224cf6ab2bfed004351f9f4f474ff5dbce835c
+Author: Frieze <frieze@onet.pl>
+Date:   Wed May 17 13:25:23 2023 +0200
+
+    dodalem refren1-3
+
+commit 92cbfb4fe49f7a35dcc4b382c9c787e635f3ded2
+Author: Frieze <frieze@onet.pl>
+Date:   Wed May 17 13:20:01 2023 +0200
+
+    dodalem refren1-3
+
+commit 7976ede040e44db8010784d4bff820c14f48d100
+Author: Frieze <frieze@onet.pl>
+Date:   Wed May 17 13:14:45 2023 +0200
+
+    dodalem zwrotka3
+
+commit 20ffb2bb1294c726c1d458469685304033c8932d
+Author: Frieze <frieze@onet.pl>
+Date:   Wed May 17 13:12:01 2023 +0200
+
+    dodalem zwrotka2
+
+commit 714ee190660302d0da3ac49879ad2edde67faf9d
+Author: Frieze <frieze@onet.pl>
+Date:   Wed May 17 13:10:24 2023 +0200
+
+    dodalem zwrotka1
+
+commit d39d4b3a0752771fd4789e7d08bd4017e2d92fcf
+Author: Frieze <frieze@onet.pl>
+Date:   Wed May 17 13:01:02 2023 +0200
+
+    dodalem tekst piosenki

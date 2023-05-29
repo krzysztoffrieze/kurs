@@ -1,0 +1,260 @@
+commit 902c5732e272de0ccda1fa535ef5f1282997f869
+Author: Frieze <frieze@onet.pl>
+Date:   Wed May 17 14:17:09 2023 +0200
+
+    usunalem powtarzajace refreny i zmienilem to w piosenka
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 0846bd5..9ea6832 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,6 +1,6 @@
+ zwrotka1.txt
+ refren1.txt
+ zwrotka2.txt
+-refren2.txt
++refren1.txt
+ zwrotka3.txt
+-refren3.txt
++refren1.txt
+diff --git a/refren.txt b/refren.txt
+deleted file mode 100644
+index 6dd1e17..0000000
+--- a/refren.txt
++++ /dev/null
+@@ -1,2 +0,0 @@
+-Chwała na wysokości, chwała na wysokości, a pokój na ziemi
+-Chwała na wysokości, chwała na wysokości, a pokój na ziemi (a pokój, jee)
+\ No newline at end of file
+diff --git a/refren2.txt b/refren2.txt
+deleted file mode 100644
+index 6dd1e17..0000000
+--- a/refren2.txt
++++ /dev/null
+@@ -1,2 +0,0 @@
+-Chwała na wysokości, chwała na wysokości, a pokój na ziemi
+-Chwała na wysokości, chwała na wysokości, a pokój na ziemi (a pokój, jee)
+\ No newline at end of file
+diff --git a/refren3.txt b/refren3.txt
+deleted file mode 100644
+index 6dd1e17..0000000
+--- a/refren3.txt
++++ /dev/null
+@@ -1,2 +0,0 @@
+-Chwała na wysokości, chwała na wysokości, a pokój na ziemi
+-Chwała na wysokości, chwała na wysokości, a pokój na ziemi (a pokój, jee)
+\ No newline at end of file
+
+commit aac19625c7482ae3b10ef2e2a5e8f3483ac61e6d
+Author: Frieze <frieze@onet.pl>
+Date:   Wed May 17 14:02:31 2023 +0200
+
+    Revert "usunalem 2 linie zrefren1"
+    
+    This reverts commit 3ae0f84eae838ab368e7551956f82f19db4e574e.
+
+diff --git a/refren1.txt b/refren1.txt
+index 53f5794..ffb52c7 100644
+--- a/refren1.txt
++++ b/refren1.txt
+@@ -1 +1,2 @@
+ Chwała na wysokości, chwała na wysokości, a pokój na ziemi
++Chwała na wysokości, chwała na wysokości, a pokój na ziemi (a pokój, jee)
+
+commit 3ae0f84eae838ab368e7551956f82f19db4e574e
+Author: Frieze <frieze@onet.pl>
+Date:   Wed May 17 13:59:18 2023 +0200
+
+    usunalem 2 linie zrefren1
+
+diff --git a/refren1.txt b/refren1.txt
+index ffb52c7..53f5794 100644
+--- a/refren1.txt
++++ b/refren1.txt
+@@ -1,2 +1 @@
+ Chwała na wysokości, chwała na wysokości, a pokój na ziemi
+-Chwała na wysokości, chwała na wysokości, a pokój na ziemi (a pokój, jee)
+
+commit b9b1211499755b49f3d48db51c4c72466776da37
+Author: Frieze <frieze@onet.pl>
+Date:   Wed May 17 13:54:05 2023 +0200
+
+     modyfikacja piosenka i refren1
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 51788b7..0846bd5 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,22 +1,6 @@
+-Przybieżeli do Betlejem pasterze
+-Grając skocznie dzieciąteczku na lirze
+-Chwała na wysokości, chwała na wysokości, a pokój na ziemi
+-Chwała na wysokości, chwała na wysokości, a pokój na ziemi (a pokój, jee)
+-Oddawali swe ukłony w pokorze
+-Tobie z serca ochotnego, o Boże!
+-Chwała na wysokości, chwała na wysokości, a pokój na ziemi
+-Chwała na wysokości, chwała na wysokości, a pokój na ziemi (a pokój, jee)
+-Anioł Pański sam ogłosił te dziwy
+-Których oni nie słyszeli, jak żywi
+-Chwała na wysokości, chwała na wysokości, a pokój na ziemi (a pokój, jee)
+-Chwała na wysokości, chwała na wysokości, a pokój na ziemi (a pokój)
+-Chwała
+-Na wysokości
+-Chwała
+-Na wysokości
+-Chwała
+-Na wysokości
+-Chwała
+-Na wysokości
+-Chwała na wysokości, chwała na wysokości, a pokój na ziemi (a pokój, jee)
+-Chwała na wysokości, chwała na wysokości, a pokój na ziemi (a pokój)
+\ No newline at end of file
++zwrotka1.txt
++refren1.txt
++zwrotka2.txt
++refren2.txt
++zwrotka3.txt
++refren3.txt
+diff --git a/refren1.txt b/refren1.txt
+index 6dd1e17..ffb52c7 100644
+--- a/refren1.txt
++++ b/refren1.txt
+@@ -1,2 +1,2 @@
+ Chwała na wysokości, chwała na wysokości, a pokój na ziemi
+-Chwała na wysokości, chwała na wysokości, a pokój na ziemi (a pokój, jee)
+\ No newline at end of file
++Chwała na wysokości, chwała na wysokości, a pokój na ziemi (a pokój, jee)
+
+commit 00224cf6ab2bfed004351f9f4f474ff5dbce835c
+Author: Frieze <frieze@onet.pl>
+Date:   Wed May 17 13:25:23 2023 +0200
+
+    dodalem refren1-3
+
+diff --git a/zwrotka1.txt b/zwrotka1.txt
+new file mode 100644
+index 0000000..dd3e5db
+--- /dev/null
++++ b/zwrotka1.txt
+@@ -0,0 +1,2 @@
++Przybieżeli do Betlejem pasterze
++Grając skocznie dzieciąteczku na lirze
+\ No newline at end of file
+
+commit 92cbfb4fe49f7a35dcc4b382c9c787e635f3ded2
+Author: Frieze <frieze@onet.pl>
+Date:   Wed May 17 13:20:01 2023 +0200
+
+    dodalem refren1-3
+
+diff --git a/refren1.txt b/refren1.txt
+new file mode 100644
+index 0000000..6dd1e17
+--- /dev/null
++++ b/refren1.txt
+@@ -0,0 +1,2 @@
++Chwała na wysokości, chwała na wysokości, a pokój na ziemi
++Chwała na wysokości, chwała na wysokości, a pokój na ziemi (a pokój, jee)
+\ No newline at end of file
+diff --git a/refren2.txt b/refren2.txt
+new file mode 100644
+index 0000000..6dd1e17
+--- /dev/null
++++ b/refren2.txt
+@@ -0,0 +1,2 @@
++Chwała na wysokości, chwała na wysokości, a pokój na ziemi
++Chwała na wysokości, chwała na wysokości, a pokój na ziemi (a pokój, jee)
+\ No newline at end of file
+diff --git a/refren3.txt b/refren3.txt
+new file mode 100644
+index 0000000..6dd1e17
+--- /dev/null
++++ b/refren3.txt
+@@ -0,0 +1,2 @@
++Chwała na wysokości, chwała na wysokości, a pokój na ziemi
++Chwała na wysokości, chwała na wysokości, a pokój na ziemi (a pokój, jee)
+\ No newline at end of file
+
+commit 7976ede040e44db8010784d4bff820c14f48d100
+Author: Frieze <frieze@onet.pl>
+Date:   Wed May 17 13:14:45 2023 +0200
+
+    dodalem zwrotka3
+
+diff --git a/zwrotka3.txt b/zwrotka3.txt
+new file mode 100644
+index 0000000..30c05dd
+--- /dev/null
++++ b/zwrotka3.txt
+@@ -0,0 +1,2 @@
++Anioł Pański sam ogłosił te dziwy
++Których oni nie słyszeli, jak żywi
+\ No newline at end of file
+
+commit 20ffb2bb1294c726c1d458469685304033c8932d
+Author: Frieze <frieze@onet.pl>
+Date:   Wed May 17 13:12:01 2023 +0200
+
+    dodalem zwrotka2
+
+diff --git a/zwrotka2.txt b/zwrotka2.txt
+new file mode 100644
+index 0000000..6f06830
+--- /dev/null
++++ b/zwrotka2.txt
+@@ -0,0 +1,2 @@
++Oddawali swe ukłony w pokorze
++Tobie z serca ochotnego, o Boże!
+\ No newline at end of file
+
+commit 714ee190660302d0da3ac49879ad2edde67faf9d
+Author: Frieze <frieze@onet.pl>
+Date:   Wed May 17 13:10:24 2023 +0200
+
+    dodalem zwrotka1
+
+diff --git a/refren.txt b/refren.txt
+new file mode 100644
+index 0000000..6dd1e17
+--- /dev/null
++++ b/refren.txt
+@@ -0,0 +1,2 @@
++Chwała na wysokości, chwała na wysokości, a pokój na ziemi
++Chwała na wysokości, chwała na wysokości, a pokój na ziemi (a pokój, jee)
+\ No newline at end of file
+
+commit d39d4b3a0752771fd4789e7d08bd4017e2d92fcf
+Author: Frieze <frieze@onet.pl>
+Date:   Wed May 17 13:01:02 2023 +0200
+
+    dodalem tekst piosenki
+
+diff --git a/piosenka.txt b/piosenka.txt
+new file mode 100644
+index 0000000..51788b7
+--- /dev/null
++++ b/piosenka.txt
+@@ -0,0 +1,22 @@
++Przybieżeli do Betlejem pasterze
++Grając skocznie dzieciąteczku na lirze
++Chwała na wysokości, chwała na wysokości, a pokój na ziemi
++Chwała na wysokości, chwała na wysokości, a pokój na ziemi (a pokój, jee)
++Oddawali swe ukłony w pokorze
++Tobie z serca ochotnego, o Boże!
++Chwała na wysokości, chwała na wysokości, a pokój na ziemi
++Chwała na wysokości, chwała na wysokości, a pokój na ziemi (a pokój, jee)
++Anioł Pański sam ogłosił te dziwy
++Których oni nie słyszeli, jak żywi
++Chwała na wysokości, chwała na wysokości, a pokój na ziemi (a pokój, jee)
++Chwała na wysokości, chwała na wysokości, a pokój na ziemi (a pokój)
++Chwała
++Na wysokości
++Chwała
++Na wysokości
++Chwała
++Na wysokości
++Chwała
++Na wysokości
++Chwała na wysokości, chwała na wysokości, a pokój na ziemi (a pokój, jee)
++Chwała na wysokości, chwała na wysokości, a pokój na ziemi (a pokój)
+\ No newline at end of file
